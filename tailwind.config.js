@@ -2,7 +2,12 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {},
+      extend: {
+        fontFamily: {
+          nunito: ['Nunito'],
+          dmsans: ['Dm Sans']
+        }
+      },
     },
     plugins: [],
   }
