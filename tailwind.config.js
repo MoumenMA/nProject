@@ -2,7 +2,11 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {},
+      extend: {
+        fontFamily: {
+          'nippo': ['Nippo', 'sans-serif'],
+      }
+      },
     },
     plugins: [],
   }
